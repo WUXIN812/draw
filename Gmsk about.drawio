@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T13:56:49.658Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.70 Safari/537.36 Edg/92.0.902.30" etag="mjnMQZFTIeZ_L91xFvFA" version="14.8.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-01T14:53:32.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.70 Safari/537.36 Edg/92.0.902.30" etag="ImgLVuOajp9S3gSkhjFa" version="14.8.3" type="github" pages="3">
   <diagram id="scGxwiTXRK3AuUd58MKa" name="BFSK">
     <mxGraphModel dx="396" dy="312" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -393,14 +393,32 @@
         <mxCell id="32k9PRl9CYx6wlQGoi4l-35" value="MSK输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="32k9PRl9CYx6wlQGoi4l-1">
           <mxGeometry x="610" y="200" width="77" height="23" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="QJBGgNCN1eGEI5GDUlez" name="GMSK">
-    <mxGraphModel dx="841" dy="446" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="RxbqCkgcbizW0k3rjpuD-0" />
-        <mxCell id="RxbqCkgcbizW0k3rjpuD-1" parent="RxbqCkgcbizW0k3rjpuD-0" />
+        <mxCell id="nuL99tDDgW1iVLs6ZbEy-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="32k9PRl9CYx6wlQGoi4l-1" source="nuL99tDDgW1iVLs6ZbEy-1" target="nuL99tDDgW1iVLs6ZbEy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuL99tDDgW1iVLs6ZbEy-1" value="预调制滤波器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="32k9PRl9CYx6wlQGoi4l-1">
+          <mxGeometry x="261" y="503" width="105" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="nuL99tDDgW1iVLs6ZbEy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="32k9PRl9CYx6wlQGoi4l-1" source="nuL99tDDgW1iVLs6ZbEy-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="579" y="523" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nuL99tDDgW1iVLs6ZbEy-3" value="MSK调制器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="32k9PRl9CYx6wlQGoi4l-1">
+          <mxGeometry x="412" y="503" width="105" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="nuL99tDDgW1iVLs6ZbEy-4" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="32k9PRl9CYx6wlQGoi4l-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="196" y="522" as="sourcePoint" />
+            <mxPoint x="261" y="522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nuL99tDDgW1iVLs6ZbEy-5" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="32k9PRl9CYx6wlQGoi4l-1">
+          <mxGeometry x="529" y="494" width="42" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="nuL99tDDgW1iVLs6ZbEy-6" value="输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="32k9PRl9CYx6wlQGoi4l-1">
+          <mxGeometry x="210" y="496" width="42" height="23" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
