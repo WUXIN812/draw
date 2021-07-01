@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T09:30:47.454Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.70 Safari/537.36 Edg/92.0.902.30" version="14.8.3" etag="8J4bJYv-k-wvZ7_ZII6Z" type="github"><diagram id="scGxwiTXRK3AuUd58MKa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-01T09:45:49.242Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.70 Safari/537.36 Edg/92.0.902.30" etag="Me6bFraJkhNO5FlzCp-g" version="14.8.3" type="github">
+  <diagram id="scGxwiTXRK3AuUd58MKa" name="第 1 页">
+    <mxGraphModel dx="933" dy="525" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u_wf4EASykCzE1O6plLs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="u_wf4EASykCzE1O6plLs-1" target="u_wf4EASykCzE1O6plLs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="u_wf4EASykCzE1O6plLs-1" target="u_wf4EASykCzE1O6plLs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-1" value="BFSK信号输入" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="27" y="142" width="109" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="u_wf4EASykCzE1O6plLs-2" target="u_wf4EASykCzE1O6plLs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-2" value="带通滤波器0b" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="156" y="73" width="102" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="u_wf4EASykCzE1O6plLs-3" target="u_wf4EASykCzE1O6plLs-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-3" value="带通滤波器1b" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="154" y="211" width="101" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="u_wf4EASykCzE1O6plLs-4" target="u_wf4EASykCzE1O6plLs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-4" value="Cosine Wave 0b" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="165" y="142" width="90" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="u_wf4EASykCzE1O6plLs-5" target="u_wf4EASykCzE1O6plLs-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-5" value="Cosine Wave 1b" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="165" y="280" width="90" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="u_wf4EASykCzE1O6plLs-9" target="u_wf4EASykCzE1O6plLs-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-9" value="相乘器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="307" y="111" width="53" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="u_wf4EASykCzE1O6plLs-10" target="u_wf4EASykCzE1O6plLs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-10" value="相乘器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="307" y="250" width="53" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="u_wf4EASykCzE1O6plLs-15" target="u_wf4EASykCzE1O6plLs-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-15" value="低通滤波器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="409" y="108" width="90" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="u_wf4EASykCzE1O6plLs-16" target="u_wf4EASykCzE1O6plLs-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-16" value="低通滤波器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="409" y="247" width="90" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="u_wf4EASykCzE1O6plLs-17" target="u_wf4EASykCzE1O6plLs-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-17" value="抽样脉冲" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="413" y="321" width="73" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="u_wf4EASykCzE1O6plLs-18" target="u_wf4EASykCzE1O6plLs-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-18" value="抽样判决器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="548" y="247" width="90" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u_wf4EASykCzE1O6plLs-19" value="BFSK解调信号输出" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="687" y="247" width="142" height="33" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
